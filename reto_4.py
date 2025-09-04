@@ -62,11 +62,12 @@ for z in range(zonas):
     peor = max(candidatas_min, key=lambda x: orden.index(x))
     peores.append(peor)
 
-print("\n--- RESULTADOS GENERALES ---")
+print("RESULTADOS")
 print("No apto:", contarNA)
 print("Marginalmente apto:", contarMA)
 print("Moderadamente apto:", contarMO)
 print("Sumamente apto:", contarSA)
 
 print("\nCategoría más frecuente en cada zona:", ", ".join(mejores))
+
 print("Categoría menos frecuente en cada zona:", ", ".join(peores))
