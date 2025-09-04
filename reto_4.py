@@ -71,3 +71,4 @@ print("Sumamente apto:", contarSA)
 print("\nCategoría más frecuente en cada zona:", ", ".join(mejores))
 
 print("Categoría menos frecuente en cada zona:", ", ".join(peores))
+
